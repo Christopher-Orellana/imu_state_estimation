@@ -32,7 +32,7 @@ $\displaystyle F = I_6,\qquad H = I_6$
     - `R` = empirical IMU variances
     - `Q` = small diagonal process noise (fraction of `R`)
 
-Filtering is performed with **FilterPy**, followed by **RTS smoothing**.
+Filtering is performed with **FilterPy**.
 
 ---
 
