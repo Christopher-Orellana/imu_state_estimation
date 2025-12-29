@@ -53,5 +53,5 @@ Filtering is performed with **FilterPy**.
     - innovation analysis
     - 1-step-ahead prediction
 4. **Interpretation & conclusion**
-    - TBD
+    - Future steps involve changing the state vector to account for some type of gyroscope autocorrelation that is shown by diagnostics. We can fine tune F (Transition Matrix), as well as Q to better capture the true structure of the gyro_x channel by adding a gyro bias term modeled as a random walk in the state equation which I hypothesize will reduce autocorrelation and capture the drift.
 ---
